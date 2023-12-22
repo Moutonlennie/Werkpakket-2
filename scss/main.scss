@@ -1,0 +1,435 @@
+@use 'base' as *;
+@use 'components' as *;
+
+// header
+.container {
+    background-image: url("../assets/achtergrond1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    .logo {
+        text-align: center;
+        padding-top: 10rem;
+
+        h1 {
+            font-size: 5rem;
+            color: $kleur_vijf;
+            font-family: 'Pixelify Sans', sans-serif;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .inleiding {
+        text-align: center;
+        padding-top: 5rem;
+
+        h4 {
+            font-size: 1.3rem;
+        }
+    }
+
+    button {
+        a {
+            text-decoration: none;
+            color: $kleur_twee;
+            transition: 1s;
+        }
+        a:hover {
+            color: $kleur_vier;
+        }
+    }
+}
+.productTitleHome {
+    color: black;
+}
+
+// main
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+
+    .card {
+        margin: 10px;
+
+        .card-content {
+            color: $kleur_twee;
+        }
+
+        .card-photo {
+            
+            img {
+                width: auto;
+                height: 300px;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+    .card:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        transform: scale(1.1); 
+    }
+}
+
+.main-content {
+    background-color: $kleur_een;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    .card-number {
+        font-size: 100px;
+        font-family: 'Pixelify Sans', sans-serif;
+        color: $kleur_vier;
+    }
+
+    .why-card {
+        width: 300px;
+        height: 300px;
+        margin: 15px;
+        backdrop-filter: opacity(20%);
+
+        h3 {
+            color: $kleur_vijf;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    }
+}
+section {
+    background-color: $kleur_een;
+    padding-bottom: 10px;
+    text-align: center;
+    padding: 20px 25rem;
+
+    h2 {
+        color: $kleur_vijf;
+        padding-bottom: 10px;
+    }
+}
+
+// Login
+.login-img {
+    background-image: url("../src/assets/Background-login.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+form {
+    background-color: $kleur_een;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    transform: translate(50%, 50%);
+    margin-left: 30%;
+    margin-bottom: 21%;
+    text-align: center;
+
+    a {
+        color: $kleur_drie;
+        svg {
+            float: left;
+            margin: 10px 10px;
+        }
+    }
+
+    h1 {
+        font-family: 'Pixelify Sans', sans-serif;
+        color: $kleur_twee;
+        margin-right: 35px;
+    }
+
+    .e-mail {
+        margin: 10px;
+    }
+
+    .wachtwoord {
+        margin: 10px;
+    }
+
+    label {
+        color: $kleur_vier;
+    }
+
+    .login-vergeten {
+        border-bottom: 1px solid $kleur_vijf;
+        margin-top: 20px;
+        color: $kleur_drie;
+    }
+    .login-vergeten:hover {
+        font-weight: bold;
+    }
+
+    .login-button {
+        margin-left: 0;
+        padding: 10px 40px;
+        font-size: 1rem;
+    }
+
+    input {
+        border-radius: 0.2rem;
+        padding: 0.5rem;
+        margin: 10px;
+    }
+}
+
+// Overzicht
+.header-overzicht {
+    text-align: center;
+    background-image: none;
+    h1{
+        color: $kleur_vijf;
+        font-family: 'Pixelify Sans', sans-serif;
+        font-size: 5rem;
+        padding-top: 12rem;
+    }
+
+    p {
+        color: $kleur_twee;
+        padding: 20px 20rem;
+    }
+}
+
+.filter {
+    .filterbtn {
+        margin-left: 8rem;
+        padding: 20px 50px;
+    }
+}
+.filteropties {
+    width: 1400px;
+    margin: 10px 0 0 60px;
+    display: flex;
+    justify-content: start;
+    padding-left: 70px;
+
+    .opties {
+        background-color: $kleur_twee;
+        /* Klur vier */
+        color: $kleur_vier;
+        /* kleur twee */
+        width: 100px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin: 0 10px 0 0;
+    }
+}
+
+// Prodcut specifiek
+.detail-container {
+    display: flex;
+    justify-content: space-around;
+    color: $kleur_vijf;
+
+    .detail-left {
+        img {
+            border-radius: 0.5rem;
+            height: 500px;
+            width: auto;
+            margin-top: 30%;
+        }
+
+    }
+
+    .detail-right {
+        margin-top: 10%;
+        max-width: 40%;
+
+        .detail-titel {
+            width: 100%;
+            justify-content: space-around;
+            font-family: 'Pixelify Sans', sans-serif;
+            h3 {
+                display: inline-block;
+
+            }
+
+            #kenmerk {
+                float: right;
+                padding: 5px;
+            }
+
+            #beschrijving {
+                border-bottom: 3px solid tan;
+                padding: 5px;
+            }
+        }
+
+        .detail-beschrijving {
+            h3 {
+                padding: 5px;
+                margin: 20px;
+            }
+            p {
+                margin: 20px;
+            }
+
+            h2 {
+                text-align: center;
+                padding: 8rem;
+                font-size: 5rem;
+            }
+        }
+
+        .detail-kenmerken {
+            display: none;
+
+            ul {
+                padding: 20px;
+                
+                li {
+                    padding: 5px;
+                }
+            }
+        }
+
+        button {
+            margin-left: 0;
+            width: 100%;
+            align-items: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 3rem 0 0 0 ;
+            font-size: 3rem;
+        }
+    }
+}
+// Winkelwagen
+.container-winkelwagen {
+    display: flex;
+
+    .geenprod {
+        text-align: center;
+        margin-top: 100px;
+        color: $kleur_vijf;
+    }
+
+    .product-product {
+        min-width: 1000px;
+    }
+
+    .product-lijst {
+        background-color: $kleur_een;
+        height: 100px;
+        padding: 20px;
+        margin: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+
+        .product-foto {
+           .product-image {
+            width: 80px;
+            height: auto;
+           }
+        }
+    }
+
+    .prijs-optelling {
+        background-color: $kleur_een;
+        width: 500px;
+        height: auto;
+        padding: 20px;
+        margin: 30px;
+        text-align: center;
+        margin-top: 100px;
+
+        .btn-bestellen {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .prijs-totaal {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .prijs-totaal h3 {
+            margin-top: 20px;
+            flex: 50%;
+        }
+        .prijs-totaal p {
+            margin-top: 20px;
+            flex: 50%;
+        }
+
+        .prijs-incBtw {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .prijs-incBtw h3 {
+            margin-top: 20px;
+            flex: 50%;
+
+        }
+        .prijs-incBtw p {
+            margin-top: 20px;
+            flex: 50%;
+        }
+    }
+}
+
+// Bevestigingpagina
+.container-bevestigen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bedankt {
+        margin-top: 100px;
+        width: 1000px;
+        height: 50%;
+        background-color: $kleur_een;
+        text-align: center;
+    }
+
+    .product-lijst-bevest {
+        display: inline-flex;
+        background-color: $kleur_een;
+        height: auto;
+        min-width: 1000px;
+    }
+}
+// Checkout
+.container-checkout {
+    display: flex;
+    align-items: center;
+
+    .formCheckout {
+        margin: 20px;
+        height: auto;
+        width: 300px;
+    }
+
+    .checkout-producten {
+        display: flex;
+        justify-content: space-around;
+        background-color: $kleur_een;
+        text-align: center;
+        width: 900px;
+
+    }
+}
+

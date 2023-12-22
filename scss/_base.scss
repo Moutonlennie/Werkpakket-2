@@ -1,0 +1,146 @@
+// Kleurenpallet
+$kleur_een: #ff6b6b;
+$kleur_twee: #828282;
+$kleur_drie: #dfe6e9;
+$kleur_vier: #ffdb58;
+$kleur_vijf: #68c3c0; //logo kleur
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: $kleur_drie;
+    font-size: 1rem;
+    overflow-x: hidden;
+    color: #dfe6e9;
+}
+
+nav {
+        position: fixed;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        border-bottom: 1px solid $kleur_twee;
+        border-top: 1px solid $kleur_twee;
+        width: 100%;
+        backdrop-filter: blur(1.5px);
+
+        .nav-left {
+            transform: translateY(50%);
+
+            img {
+                transform: translateY(-50%);
+            }
+
+            h1 {
+                float: right;
+                transform: translateY(-50%);
+            }
+        }        
+
+        ul {
+            list-style-type: none;
+            transform: translateY(50%);
+
+            li {
+                display: inline-block;
+                transform: translateY(-50%);
+                
+                a {
+                    text-decoration: none;
+                    padding: 14px 16px;
+                    color:$kleur_vier;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+
+        }
+
+        h1 {
+            color: $kleur_vijf;
+            margin: -5px;
+            font-family: 'Pixelify Sans', sans-serif;
+        }
+
+        img {
+            width: auto;
+            height: 50px;
+        }
+}
+
+.footer-container {
+    background-color: $kleur_twee;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 10px;
+
+    h1 {
+        font-family: 'Pixelify Sans', sans-serif;
+    }
+
+    .footer-logo {
+        img {
+            width: auto;
+            height: 100px;
+            
+        }
+
+        h1 {
+            font-family: 'Pixelify Sans', sans-serif;
+            color: $kleur_vijf;
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+    }
+
+    .footer-product, .footer-contact {
+        h1 {
+            color: $kleur_vier;
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+                transform: translateY(50%);
+                padding: 1rem;
+                
+                a {
+                    text-decoration: none;
+                    padding: 14px 16px;
+                    color: $kleur_drie;
+                    
+                }
+            }
+        }
+    }
+
+    .footer-socials {
+        h1 {
+            color: $kleur_vier;
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+                padding: 1rem;
+
+                img {
+                    width: auto;
+                    height: 45px;
+                }
+            }
+        }
+    }
+    
+}

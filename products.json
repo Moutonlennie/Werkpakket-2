@@ -1,0 +1,214 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "title": "Product 1",
+        "description": "Dit is het eerste product met alle benodigde informatie.",
+        "image": "/src/assets/moji7.png",
+        "price": 29.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 50,
+        "gender": "vrouw",
+        "stijl": "chic"
+      },
+      {
+        "id": "2",
+        "title": "Product 2",
+        "description": "Dit is het tweede product met alle benodigde informatie.",
+        "image": "/src/assets/1.png",
+        "price": 39.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 0,
+        "gender": "man",
+        "stijl": "alledaags"
+
+      },
+      {
+        "id": "3",
+        "title": "Product 3",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/Moji2.png",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 20,
+        "gender": "vrouw",
+        "stijl": "alledaags"
+        
+      },
+      {
+        "id": "4",
+        "title": "Product 4",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/2.png",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 90,
+        "gender": "man",
+        "stijl": "alledaags"
+      },
+      {
+        "id": "5",
+        "title": "Product 5",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/Moji4.png",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 98,
+        "gender": "vrouw",
+        "stijl": "alledaags"
+      },
+      {
+        "id": "6",
+        "title": "Product 6",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/moji5.png",   
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 23,
+        "gender": "vrouw",
+        "stijl": "alledaags"
+      },
+      {
+        "id": "7",
+        "title": "Product 7",
+        "description": "Dit is het derde product met alle benodigde informatie",
+        "image": "/src/assets/Moji3.png",
+        "price": 49.99,
+        "features": [
+          "Dit is een test om te zien als het werkt",
+          "Dit is ook een test",
+          "Dees is een 3de test"
+        ],
+        "vat_rate": 0.21,
+        "stock_quantity": 99,
+        "gender": "vrouw",
+        "stijl": "chic"
+      },
+      {
+        "id": "8",
+        "title": "Product 8",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/3.png",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 100,
+        "gender": "man",
+        "stijl": "sportief"
+      },
+      {
+        "id": "9",
+        "title": "Product 9",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/5.png",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 66,
+        "gender": "man",
+        "stijl": "alledaags"
+      },
+      {
+        "id": "10",
+        "title": "Product 10",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/4.png",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 34,
+        "gender": "man",
+        "stijl": "alledaags"
+      },
+      {
+        "id": "11",
+        "title": "Product 11",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/moji6.png",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 55,
+        "gender": "vrouw",
+        "stijl": "alledaags"
+      },
+      {
+        "id": "12",
+        "title": "Product 12",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 8
+      },
+      {
+        "id": "13",
+        "title": "Product 13",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 79
+      },
+      {
+        "id": "14",
+        "title": "Product 14",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 5
+      },
+      {
+        "id": "15",
+        "title": "Product 15",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 25
+      },
+      {
+        "id": "16",
+        "title": "Product 16",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 40
+      },
+      {
+        "id": "17",
+        "title": "Product 17",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 2
+      },
+      {
+        "id": "18",
+        "title": "Product 18",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "/src/assets/product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 8
+      },
+      {
+        "id": "19",
+        "title": "Product 19",
+        "description": "Dit is het derde product met alle benodigde informatie.",
+        "image": "product3.jpg",
+        "price": 49.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 20
+      },
+     
+      {
+        "id": "20",
+        "title": "Product 20",
+        "description": "Dit is het twintigste product met alle benodigde informatie.",
+        "image": "product20.jpg",
+        "price": 99.99,
+        "vat_rate": 0.21,
+        "stock_quantity": 10
+      }
+    ]
+  }
